@@ -1,7 +1,7 @@
 package org.redhat;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import org.flywaydb.core.Flyway;
 import org.jboss.logging.Logger;
 

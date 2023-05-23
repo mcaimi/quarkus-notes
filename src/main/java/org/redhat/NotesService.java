@@ -2,11 +2,11 @@ package org.redhat;
 
 import java.util.List;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-import javax.persistence.EntityExistsException;
-import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.persistence.EntityExistsException;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 import org.redhat.exceptions.NoteExistsException;
 import org.redhat.exceptions.NoteNotExistsException;
